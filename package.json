@@ -1,0 +1,15 @@
+{
+  "name": "daemon-pinger",
+  "version": "1.0.0",
+  "description": "Simple Google Cloud function to ping TurtleCoin daemons for their /info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests \" && exit 1"
+  },
+  "author": "Nicholas Orr",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0",
+    "valid-url": "^1.0.9"
+  }
+}
